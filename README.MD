@@ -1,4 +1,4 @@
-# Curso de JavaScript da RocketSeat* 
+# Curso de JavaScript da RocketSeat 
 ### O Objetivo deste conteúdo é organizar o código aprendido dentro das videoaulas e aprimorar os conhecimentos com o Git e GitHub 
 
 ## 1 Introdução
@@ -12,7 +12,6 @@
 - [ ] Condição ternária
 - [ ] Estruturas de repetição
 - [ ] Intervalo e timeout
-
 - [ ] Desafio
 
 ## 2 Manipulando a DOM
@@ -20,7 +19,6 @@
 - [ ] Trabalhando com a DOM
 - [ ] Lidando com elementos
 - [ ] Alterando estilos
-
 - [ ] Desafio
 
 ## 3 App de Todos
@@ -32,8 +30,7 @@
 - [ ] Salvando no storage
 
 ## 4 JS Assíncrono
-- [ ] Requisição AJA 
+- [ ] Requisição AJAX
 - [ ] Promises
-- [ ] Utilizando A ios
-
+- [ ] Utilizando Axios
 - [ ] Desafio
