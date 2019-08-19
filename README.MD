@@ -2,38 +2,38 @@
 ### O Objetivo deste conteúdo é organizar o código aprendido dentro das videoaulas e aprimorar os conhecimentos com o Git e GitHub 
 
 ## 1 Introdução
-- [] Introdução
-- [] Configurando ambiente
-- [] Variáveis e dados
-- [] Operações matemáticas
-- [] Funções
-- [] Condicionais
-- [] Operadores lógicos
-- [] Condição ternária
-- [] Estruturas de repetição
-- [] Intervalo e timeout
+- [x] Introdução
+- [x] Configurando ambiente
+- [x] Variáveis e dados
+- [x] Operações matemáticas
+- [x] Funções
+- [x] Condicionais
+- [x] Operadores lógicos
+- [x] Condição ternária
+- [x] Estruturas de repetição
+- [x] Intervalo e timeout
 
-- [] Desafio
+- [x] Desafio
 
 ## 2 Manipulando a DOM
-- [] Eventos inline
-- [] Trabalhando com a DOM
-- [] Lidando com elementos
-- [] Alterando estilos
+- [x] Eventos inline
+- [x] Trabalhando com a DOM
+- [x] Lidando com elementos
+- [x] Alterando estilos
 
-- [] Desafio
+- [x] Desafio
 
 ## 3 App de Todos
-- [] Estrutura do app
-- [] Iniciando aplicação
-- [] Renderizando todos
-- [] Criando todos
-- [] Excluindo todos
-- [] Salvando no storage
+- [x] Estrutura do app
+- [x] Iniciando aplicação
+- [x] Renderizando todos
+- [x] Criando todos
+- [x] Excluindo todos
+- [x] Salvando no storage
 
 ## 4 JS Assíncrono
-- [] Requisição AJAX
-- [] Promises
-- [] Utilizando Axios
+- [x] Requisição AJAX
+- [x] Promises
+- [x] Utilizando Axios
 
-- [] Desafio
+- [x] Desafio
