@@ -14,7 +14,7 @@
 - [X] Condição ternária
 - [X] Estruturas de repetição
 - [X] Intervalo e timeout
-- [] Desafio
+- [ ] Desafio
 
 ## 2 Manipulando a DOM
 - [ ] Eventos inline
