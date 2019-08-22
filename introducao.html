@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Introdução - JavaScript</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <script id="1" name="Variáveis e Dados">
+      var nome = "Guilherme";
+      var idade = 21;
+      var sexo = "Masculino";
+      var peso = 65.5;
+      var humano = true;
+      var skills = ["html", "css", "js", "react", "ux", "design"];
+
+      var dev = {
+        nome: "Guilherme",
+        skills: skills[3],
+        idade: 21,
+        peso: 65.5,
+        humano: true
+      };
+
+      //console.log(dev.nome +" é especialista em "+ skills[4]+" e "+dev.skills);
+    </script>
+
+    <script id="2" name="Operações Matemáticas">
+      var x = 10,
+        y = 5,
+        z = "5";
+      x += 3;
+
+      var zz = JSON.parse(z);
+
+      var resultado = x * y + zz;
+      // console.log(resultado);
+    </script>
+
+    <script id="3" name="funções">
+      function soma(num1, num2) {
+        var resultado = num1 + num2;
+        return resultado;
+      }
+
+      function subtrair(num1, num2) {
+        var resultado = num1 - num2;
+        return resultado;
+      }
+
+      function multiplicar(num1, num2) {
+        var resultado = num1 * num2;
+        return resultado;
+      }
+
+      //console.log(soma(50, 50));
+      //console.log(subtrair(10, 50));
+      //console.log(multiplicar(50, 50));
+    </script>
+
+    <script id="4" name="Condições">
+      function sexo(sexo) {
+        if (sexo == "M") {
+          return "Masculino";
+        }
+        if (sexo == "F") {
+          return "Feminino";
+        } else {
+          return "Outro";
+        }
+      }
+      function sexo1(sexo) {
+        switch (sexo) {
+          case "M":
+            return "Masculino";
+
+          case "F":
+            return "Feminino";
+
+          default:
+            return "Outro";
+        }
+      }
+
+      //console.log(sexo("F"));
+      //console.log(sexo1("f"));
+    </script>
+
+    <script id="5" name="Operadores Lógicos">
+      var sexo = "M",
+        idade = 21;
+      if (sexo === "M" && idade != 23) {
+        //console.log("Informações Corretas");
+      } else {
+        //console.log("Informações Erradas");
+      }
+
+      if (sexo === "M" || idade === 21) {
+        //console.log("Informações Corretas");
+      } else {
+        //console.log("Informações Erradas");
+      }
+    </script>
+
+    <script id="6" name="Condição Ternária">
+      var sexo = "M";
+      var retorno = sexo === "M" ? "Masculino" : "Feminino";
+      //console.log(retorno);
+    </script>
+
+    <script id="7" name="Estruturas de Repetição">
+      for (var i = 0; i < 100; i++) {
+        //console.log(i);
+      }
+      var j = 634563483452948634563483452948,
+        cont = 1;
+      while (j > 30) {
+        //console.log(cont + "\n" + j);
+        cont++;
+        j /= 2;
+      }
+    </script>
+
+    <script id="8" name="Intervalo e Timeout">
+      function exibiAlert(){
+        //console.log("Hello Alert");
+      }
+    //setInterval(exibiAlert, 3000)
+    //setTimeout(exibiAlert, 3000)
+    </script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

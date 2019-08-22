@@ -1,18 +1,20 @@
 # Curso de JavaScript da RocketSeat 
 ### O Objetivo deste conteúdo é organizar o código aprendido dentro das videoaulas e aprimorar os conhecimentos com o Git e GitHub 
 
+### Oque é JS?
+#### 
 ## 1 Introdução
 - [x] Introdução
-- [ ] Configurando ambiente
-- [ ] Variáveis e dados
-- [ ] Operações matemáticas
-- [ ] Funções
-- [ ] Condicionais
-- [ ] Operadores lógicos
-- [ ] Condição ternária
-- [ ] Estruturas de repetição
-- [ ] Intervalo e timeout
-- [ ] Desafio
+- [X] Configurando ambiente
+- [X] Variáveis e dados
+- [X] Operações matemáticas
+- [X] Funções
+- [X] Condicionais
+- [X] Operadores lógicos
+- [X] Condição ternária
+- [X] Estruturas de repetição
+- [X] Intervalo e timeout
+- [] Desafio
 
 ## 2 Manipulando a DOM
 - [ ] Eventos inline
