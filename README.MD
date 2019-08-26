@@ -17,19 +17,19 @@
 - [ ] Desafio
 
 ## 2 Manipulando a DOM
-- [ ] Eventos inline
-- [ ] Trabalhando com a DOM
-- [ ] Lidando com elementos
-- [ ] Alterando estilos
-- [ ] Desafio
+- [x] Eventos inline
+- [x] Trabalhando com a DOM
+- [x] Lidando com elementos
+- [x] Alterando estilos
+- [x] Desafio
 
 ## 3 App de Todos
-- [ ] Estrutura do app
-- [ ] Iniciando aplicação
-- [ ] Renderizando todos
-- [ ] Criando todos
-- [ ] E cluindo todos
-- [ ] Salvando no storage
+- [x] Estrutura do app
+- [x] Iniciando aplicação
+- [x] Renderizando todos
+- [x] Criando todos
+- [x] Excluindo todos
+- [x] Salvando no storage
 
 ## 4 JS Assíncrono
 - [ ] Requisição AJAX
