@@ -32,7 +32,7 @@
 - [x] Salvando no storage
 
 ## 4 JS Assíncrono
-- [ ] Requisição AJAX
-- [ ] Promises
-- [ ] Utilizando Axios
+- [x] Requisição AJAX
+- [x] Promises
+- [x] Utilizando Axios
 - [ ] Desafio
