@@ -18,32 +18,46 @@
     />
   </head>
   <body>
+
+      <nav class="navbar navbar-light bg-light">
+          <button class="btn btn-outline-success" onclick="window.location.href='../index.html'" type="button">Voltar ao Painel</button>
+
+          <a class="navbar-brand"></a>
+          
+          <form class="form-inline">
+            
+            <div class="input-group">
+              <div class="input-group-prepend">
+                
+              </div>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Adicione uma tarefa"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+                id="imputlist"
+              />
+    
+              <button
+                class="btn btn-outline-dark my-sm-0"
+                style="margin-left: 5px"
+                id="addlist"
+              >
+                Adicionar
+              </button>
+            </div>
+          </form>
+        </nav>
     <div id="app"></div>
 
     <div class="container">
-      <div class="well well-sm" style="margin: 3rem;">
-        <h1 class="text-center">Lista de Tarefa do Gui</h1>
+      <div class="well well-sm" style="padding: 3rem;">
+       
       </div>
 
       <table class="table">
-        <thead>
-          <tr>
-            <th>
-              <input 
-                type="text"
-                placeholder="Digite um todo"
-                class="form-control"
-                id="imputlist"
-              />
-            </th>
-            <th></th>
-            <th>
-              <button  type="button" id="addlist" class="btn btn-success">
-                  &nbsp;&nbsp;Adicionar&nbsp;&nbsp;
-              </button>
-            </th>
-          </tr>
-        </thead>
+        
 
         <tbody id="ulref"></tbody>
       </table>

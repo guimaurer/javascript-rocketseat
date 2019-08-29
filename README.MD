@@ -14,7 +14,7 @@
 - [X] Condição ternária
 - [X] Estruturas de repetição
 - [X] Intervalo e timeout
-- [ ] Desafio
+
 
 ## 2 Manipulando a DOM
 - [x] Eventos inline
@@ -35,4 +35,4 @@
 - [x] Requisição AJAX
 - [x] Promises
 - [x] Utilizando Axios
-- [ ] Desafio
+

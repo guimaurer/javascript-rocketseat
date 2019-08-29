@@ -3,7 +3,7 @@ var imputElement = document.querySelector("body #imputlist");
 var buttontElement = document.querySelector("body #addlist");
 
 
-var todos = JSON.parse(localStorage.getItem('list_todos')) || [];
+var todos = JSON.parse(localStorage.getItem('list_terefas')) || [];
 
 
 function renderTodo() {
@@ -37,12 +37,7 @@ function renderTodo() {
   }
 }
 
-imputElement.addEventListener("keyup", function(event) {
-  if (event.keyCode === 13) {
-    event.preventDefault();
-    buttontElement.click();
-  }
-});
+
 
 function addTodo() {
   var textTodo = imputElement.value;
@@ -63,7 +58,7 @@ function excluirTodo(pos) {
 }
 
 function saveToStorage() {
-  localStorage.setItem("list_todos", JSON.stringify(todos));
+  localStorage.setItem("list_terefas", JSON.stringify(todos));
 }
 
 renderTodo();

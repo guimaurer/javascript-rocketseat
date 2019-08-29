@@ -2,7 +2,9 @@ var cardList = document.querySelector("body #renderlist");
 var cardImput = document.querySelector("body #card-input");
 var cardButton = document.querySelector("body #card-button");
 
-var cards = JSON.parse(localStorage.getItem('list_todos')) || [];
+var cards = JSON.parse(localStorage.getItem('_user_list'));
+
+
 
 function renderCards() {
   cardList.innerHTML = "";
@@ -50,29 +52,36 @@ function excluirTodo(pos) {
 }
 
 function addCard() {
-  var textcard = cardImput.value;
-  if (textcard != "") {
-    
+  var textcard = cardImput.value;   
     axios
       .get("https://api.github.com/users/" + textcard, "data")
-      .then(res => {
+      .then(res => {       
         cards.push(res.data);
         renderCards();
         saveToStorage() 
       })
       .catch(err => {
-        console.error(alert("Usuário não indentificado"));
+        alert('Usuário nao encontrado')
       });
-
-    
-  } else alert("Conteúdo Vazio");
 
     cardImput.value = "";
 } 
 cardButton.onclick = addCard;
 
 function saveToStorage() {
-  localStorage.setItem("list_todos", JSON.stringify(cards));
+  localStorage.setItem("_user_list", JSON.stringify(cards));
 }
 
 renderCards();
+
+var textcard = 'guimaurer';   
+    axios
+      .get("https://api.github.com/users/" + textcard, "data")
+      .then(res => {       
+        cards.push(res.data);
+        renderCards();
+        saveToStorage() 
+      })
+      .catch(err => {
+        alert('Usuário nao encontrado')
+      });

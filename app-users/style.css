@@ -1,25 +1,33 @@
-.alignitens{
+.alignitens {
   max-width: 980px;
   margin: 0 auto;
   padding: 50px 0;
-
 }
-
 .wrapper {
   display: grid;
   grid-template-columns: 200px 200px 200px;
   grid-template-columns: 1fr 1fr 1fr;
-  
-}  
-.card-itens{
- margin: 30px 30px 30px 30px;
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.048), 0 6px 20px 0 rgba(0, 0, 0, 0.034);
 }
-.info-dev{
+.card-itens {
+  margin: 30px 30px 30px 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.048),
+    0 6px 20px 0 rgba(0, 0, 0, 0.034);
+}
+.info-dev {
   padding: 15px 10px 15px 10px;
 }
-
-.bio-dev{
+.bio-dev {
   font-size: 14px;
   text-align: justify;
+}
+
+.wrapperpainel {
+  display: grid;
+  grid-template-columns: 400px 400px ;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-apps {
+  margin: 0px 5px 0px 5px;
+  max-width: 480px;
 }
