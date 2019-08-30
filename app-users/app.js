@@ -2,7 +2,7 @@ var cardList = document.querySelector("body #renderlist");
 var cardImput = document.querySelector("body #card-input");
 var cardButton = document.querySelector("body #card-button");
 
-var cards = JSON.parse(localStorage.getItem('_user_list'));
+var cards = JSON.parse(localStorage.getItem('_user_list')) || [];
 
 
 
@@ -74,14 +74,3 @@ function saveToStorage() {
 
 renderCards();
 
-var textcard = 'guimaurer';   
-    axios
-      .get("https://api.github.com/users/" + textcard, "data")
-      .then(res => {       
-        cards.push(res.data);
-        renderCards();
-        saveToStorage() 
-      })
-      .catch(err => {
-        alert('Usuário nao encontrado')
-      });
