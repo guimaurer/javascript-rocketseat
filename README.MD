@@ -2,8 +2,8 @@
 ### O objetivo deste conteúdo é gerar uma documentação do código aprendido dentro das videoaulas e aprimorar os conhecimentos do Git e GitHub. O conteúdo conta com os scripts e com os dois apps usados para reforçar os conhecimentos em JavaScript. 
 
 ```
-Para obter uma experiencia melhor do conteúdo é interessante
-fazer um clone do repositório e rodar no servidor local.
+Para obter uma experiência melhor do conteúdo é interessante fazer 
+o clone do repositório e rodar no servidor local. 😉
 ```
 
 
