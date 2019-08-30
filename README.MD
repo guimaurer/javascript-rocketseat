@@ -15,13 +15,11 @@
 - [X] Estruturas de repetição
 - [X] Intervalo e timeout
 
-
 ## 2 Manipulando a DOM
 - [x] Eventos inline
 - [x] Trabalhando com a DOM
 - [x] Lidando com elementos
 - [x] Alterando estilos
-- [x] Desafio
 
 ## 3 App de Todos
 - [x] Estrutura do app
