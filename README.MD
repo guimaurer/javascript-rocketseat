@@ -1,8 +1,9 @@
 # Curso de JavaScript da RocketSeat 
-### O Objetivo deste conteúdo é organizar o código aprendido dentro das videoaulas e aprimorar os conhecimentos com o Git e GitHub 
 
-### Oque é JS?
-#### 
+## Olá, Seja Bem Vindo(a).
+### O objetivo deste conteúdo é gerar uma documentação do código aprendido dentro das videoaulas e aprimorar os conhecimentos do Git e GitHub. O conteúdo conta com os scripts e com os dois apps usados para reforçar os conhecimentos em JavaScript. 
+
+
 ## 1 Introdução
 - [x] Introdução
 - [X] Configurando ambiente
